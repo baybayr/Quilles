@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:columnCount="3"
+    android:rowCount="11"
+    android:id="@+id/layoutPlayerGrid"
+    android:layout_rowWeight="2"
+    android:layout_columnWeight="2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/textViewPlayerName"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:textStyle="bold"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewRange1"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="1m"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewRange2"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="5m"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewRange3"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="5m"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewRange4"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:text="10m"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewRange5"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:text="10m"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewRange6"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:text="10m"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewRange7"
+        android:layout_row="7"
+        android:layout_column="0"
+        android:text="15m"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewRange8"
+        android:layout_row="8"
+        android:layout_column="0"
+        android:text="15m"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewRange9"
+        android:layout_row="9"
+        android:layout_column="0"
+        android:text="20m"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewPlaceHolder"
+        android:layout_row="10"
+        android:layout_column="0"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewTotal"
+        android:layout_row="10"
+        android:layout_column="1"
+        android:text="Total"
+        style="@style/AppTheme.GameGrid" />
+
+    <EditText
+        android:id="@+id/EditTextScore1"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:inputType="number"
+        tools:ignore="Autofill"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewSum1"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:text="Cumul"
+        style="@style/AppTheme.GameGrid" />
+
+    <EditText
+        android:id="@+id/EditTextScore2"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:inputType="number"
+        tools:ignore="Autofill"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewSum2"
+        android:layout_row="2"
+        android:layout_column="2"
+        style="@style/AppTheme.GameGrid" />
+
+    <EditText
+        android:id="@+id/EditTextScore3"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:inputType="number"
+        tools:ignore="Autofill"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewSum3"
+        android:layout_row="3"
+        android:layout_column="2"
+        style="@style/AppTheme.GameGrid" />
+
+    <EditText
+        android:id="@+id/EditTextScore4"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:inputType="number"
+        tools:ignore="Autofill"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewSum4"
+        android:layout_row="4"
+        android:layout_column="2"
+        style="@style/AppTheme.GameGrid" />
+
+    <EditText
+        android:id="@+id/EditTextScore5"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:inputType="number"
+        tools:ignore="Autofill"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewSum5"
+        android:layout_row="5"
+        android:layout_column="2"
+        style="@style/AppTheme.GameGrid" />
+
+    <EditText
+        android:id="@+id/EditTextScore6"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:inputType="number"
+        tools:ignore="Autofill"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewSum6"
+        android:layout_row="6"
+        android:layout_column="2"
+        style="@style/AppTheme.GameGrid" />
+
+    <EditText
+        android:id="@+id/EditTextScore7"
+        android:layout_row="7"
+        android:layout_column="1"
+        android:inputType="number"
+        tools:ignore="Autofill"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewSum7"
+        android:layout_row="7"
+        android:layout_column="2"
+        style="@style/AppTheme.GameGrid" />
+
+    <EditText
+        android:id="@+id/EditTextScore8"
+        android:layout_row="8"
+        android:layout_column="1"
+        android:inputType="number"
+        tools:ignore="Autofill"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewSum8"
+        android:layout_row="8"
+        android:layout_column="2"
+        style="@style/AppTheme.GameGrid" />
+
+    <EditText
+        android:id="@+id/textViewScore9"
+        android:layout_row="9"
+        android:layout_column="1"
+        android:inputType="number"
+        tools:ignore="Autofill"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/textViewSum9"
+        android:layout_row="9"
+        android:layout_column="2"
+        style="@style/AppTheme.GameGrid" />
+
+    <TextView
+        android:id="@+id/EditTextScoreTotal"
+        android:layout_row="10"
+        android:layout_column="2"
+        tools:ignore="Autofill"
+        style="@style/AppTheme.GameGrid" />
+
+</GridLayout>
